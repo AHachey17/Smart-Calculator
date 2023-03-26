@@ -1,0 +1,46 @@
+
+
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background: url(../img/mathbackgrounf.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+
+h1, h2{
+  text-align: center;
+  background: pink;
+  width: 20%;
+  height: 150px;
+  margin: 10% 40%;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+
+input, button{
+  width: 5%;
+  height: 50px;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+section{
+  float: left;
+  width: 30%;
+  margin: 5% 35%;
+}
+button{
+  background: pink;
+  border-radius: 50%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
