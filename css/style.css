@@ -13,22 +13,24 @@ body{
   text-align: center;
 }
 
-
 h1, h2{
   text-align: center;
   background: pink;
   width: 20%;
   height: 150px;
   margin: 10% 40%;
-  border-radius: 50%;
+  border-radius: 10%;
   font-size: 2rem;
+}
+h1{
+  padding-top: 2%;
 }
 
 input, button{
-  width: 5%;
+  width: 7%;
   height: 50px;
   font-size: 2rem;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 section{
   float: left;
@@ -37,7 +39,7 @@ section{
 }
 button{
   background: pink;
-  border-radius: 50%;
+  margin-right: 2%;
 }
 
 

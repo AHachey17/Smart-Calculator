@@ -1,8 +1,8 @@
 let total = 0
 
-const xInput = document.querySelector('#dominosPizza')
+const xInput = document.querySelector('#pumpkin')
 
-const yInput = document.querySelector('#pumpkin')
+const yInput = document.querySelector('#dominosPizza')
 
 const result = document.querySelector('#placeToPutResult')
 
@@ -25,13 +25,13 @@ function sum(x, y) {
 function minus(x, y) {
   x = Number(xInput.value)
   y = Number(yInput.value)
-  result.innerText = y - x
+  result.innerText = x - y
 }
 
 function quotient(x, y) {
   x = Number(xInput.value)
   y = Number(yInput.value)
-  result.innerText = y / x 
+  result.innerText = x / y 
 }
 
 function multi(x, y) {
